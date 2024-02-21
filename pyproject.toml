@@ -5,6 +5,11 @@ description = ""
 authors = ["Elena Bronina <aplicaziya@yandex.ru>"]
 readme = "README.md"
 
+
+packages = [
+  { include = "gendiff" },
+]
+
 [tool.poetry.dependencies]
 python = "^3.10"
 
